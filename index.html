@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax Scrolling</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+</head>
+<body>	
+	
+	<h1 id="click">Click the cloud!</h1>
+
+	<div class="cloud">
+		<div id="cloud1"></div>
+		<div id="cloud2"></div>
+		<div id="cloud3"></div>
+		<div id="cloud4"></div>
+	</div>
+
+	<h1 id="hate">I hate to...</h1>
+	
+	<div class="boxes">
+		<div id="box1"></div>
+		<div id="box2"></div>
+		<div id="box3"></div>
+		<div id="box4"></div>
+		<div id="box5"></div>
+		<div id="box6"></div>
+	</div>
+
+
+	<div data-0="opacity: 0;" 
+				data-200="opacity: 1;" id="raindrop1"></div>
+	<div data-210="opacity: 0;" 
+				data-225="opacity: 1;" id="raindrop2"></div>
+	<div data-235="opacity: 0;" 
+				data-250="opacity: 1;" id="raindrop3"></div>
+	<div data-260="opacity: 0;" 
+				data-275="opacity: 1;" id="raindrop4"></div>
+	<div data-375="opacity: 0;" 
+				data-400="opacity: 1;" id="raindrop5"></div>
+	<div data-350="opacity: 0;" 
+				data-360="opacity: 1;" id="raindrop6"></div>
+	<div data-325="opacity: 0;" 
+				data-335="opacity: 1;" id="raindrop7"></div>
+	<div data-410="opacity: 0;" 
+				data-425="opacity: 1;" id="raindrop8"></div>
+	<div data-435="opacity: 0;" 
+				data-450="opacity: 1;" id="raindrop9"></div>
+	<div data-460="opacity: 0;" 
+				data-475="opacity: 1;" id="raindrop10"></div>
+	<div data-485="opacity: 0;" 
+				data-500="opacity: 1;" id="raindrop11"></div>
+	<div data-510="opacity: 0;" 
+				data-525="opacity: 1;" id="raindrop12"></div>
+	<div data-625="opacity: 0;" 
+				data-635="opacity: 1;" id="raindrop13"></div>
+	<div data-600="opacity: 0;" 
+				data-610="opacity: 1;" id="raindrop14"></div>
+	<div data-575="opacity: 0;" 
+				data-585="opacity: 1;" id="raindrop15"></div>
+	<div data-550="opacity: 0;" 
+				data-560="opacity: 1;" id="raindrop16"></div>
+	<div data-640="opacity: 0;" 
+				data-650="opacity: 1;" id="raindrop17"></div>
+	<div data-660="opacity: 0;" 
+				data-675="opacity: 1;" id="raindrop18"></div>
+	<div data-685="opacity: 0;" 
+				data-700="opacity: 1;" id="raindrop19"></div>
+	<div data-710="opacity: 0;" 
+				data-725="opacity: 1;" id="raindrop20"></div>
+	<div data-825="opacity: 0;" 
+				data-835="opacity: 1;" id="raindrop21"></div>
+	<div data-800="opacity: 0;" 
+				data-810="opacity: 1;" id="raindrop22"></div>
+	<div data-775="opacity: 0;" 
+				data-785="opacity: 1;" id="raindrop23"></div>
+	<div data-750="opacity: 0;" 
+				data-760="opacity: 1;" id="raindrop24"></div>
+	<div data-840="opacity: 0;" 
+				data-850="opacity: 1;" id="raindrop25"></div>
+	<div data-860="opacity: 0;" 
+				data-875="opacity: 1;" id="raindrop26"></div>
+	<div data-885="opacity: 0;" 
+				data-900="opacity: 1;" id="raindrop27"></div>
+	<div data-910="opacity: 0;" 
+				data-925="opacity: 1;" id="raindrop28"></div>
+	<div data-1025="opacity: 0;" 
+				data-1035="opacity: 1;" id="raindrop29"></div>
+	<div data-1000="opacity: 0;" 
+				data-1010="opacity: 1;" id="raindrop30"></div>
+	<div data-975="opacity: 0;" 
+				data-985="opacity: 1;" id="raindrop31"></div>
+	<div data-950="opacity: 0;" 
+				data-960="opacity: 1;" id="raindrop32"></div>
+	<div data-1030="opacity: 0;" 
+				data-1050="opacity: 1;" id="raindrop33"></div>
+	<div data-1060="opacity: 0;" 
+				data-1075="opacity: 1;" id="raindrop34"></div>
+	<div data-1085="opacity: 0;" 
+				data-2000="opacity: 1;" id="raindrop35"></div>
+	<div data-2010="opacity: 0;" 
+				data-2025="opacity: 1;" id="raindrop36"></div>
+	<div data-3025="opacity: 0;" 
+				data-3035="opacity: 1;" id="raindrop37"></div>
+	<div data-3000="opacity: 0;" 
+				data-3010="opacity: 1;" id="raindrop38"></div>
+	<div data-2075="opacity: 0;" 
+				data-2085="opacity: 1;" id="raindrop39"></div>
+	<div data-2050="opacity: 0;" 
+				data-2060="opacity: 1;" id="raindrop40"></div>
+<!-- 	<div data-3060="opacity: 0;" 
+				data-3050="opacity: 1;" id="raindrop41"></div>
+	<div data-3085="opacity: 0;" 
+				data-3075="opacity: 1;" id="raindrop42"></div>
+	<div data-4010="opacity: 0;" 
+				data-4000="opacity: 1;" id="raindrop43"></div>
+	<div data-4035="opacity: 0;" 
+				data-4025="opacity: 1;" id="raindrop44"></div> -->
+<!-- 	<div data-5025="opacity: 0;" 
+				data-5035="opacity: 1;" id="raindrop45"></div>
+	<div data-5000="opacity: 0;" 
+				data-5010="opacity: 1;" id="raindrop46"></div>
+	<div data-4075="opacity: 0;" 
+				data-4085="opacity: 1;" id="raindrop47"></div>
+	<div data-4050="opacity: 0;" 
+				data-4060="opacity: 1;" id="raindrop48"></div> -->
+<!-- 	<div data-5060="opacity: 0;" 
+				data-5050="opacity: 1;" id="raindrop49"></div>
+	<div data-5060="opacity: 0;" 
+				data-5075="opacity: 1;" id="raindrop50"></div>
+	<div data-5085="opacity: 0;" 
+				data-6000="opacity: 1;" id="raindrop51"></div>
+	<div data-6010="opacity: 0;" 
+				data-6025="opacity: 1;" id="raindrop52"></div>
+	<div data-7025="opacity: 0;" 
+				data-7035="opacity: 1;" id="raindrop53"></div>
+	<div data-7000="opacity: 0;" 
+				data-7010="opacity: 1;" id="raindrop54"></div>
+	<div data-6075="opacity: 0;" 
+				data-6085="opacity: 1;" id="raindrop55"></div>
+	<div data-6050="opacity: 0;" 
+				data-6060="opacity: 1;" id="raindrop56"></div>
+	<div data-7060="opacity: 0;" 
+				data-7050="opacity: 1;" id="raindrop57"></div>
+	<div data-7085="opacity: 0;" 
+				data-7075="opacity: 1;" id="raindrop58"></div>
+	<div data-8010="opacity: 0;" 
+				data-8000="opacity: 1;" id="raindrop59"></div>
+	<div data-8035="opacity: 0;" 
+				data-8025="opacity: 1;" id="raindrop60"></div>
+	<div data-9025="opacity: 0;" 
+				data-9035="opacity: 1;" id="raindrop61"></div>
+	<div data-9000="opacity: 0;" 
+				data-9010="opacity: 1;" id="raindrop62"></div>
+	<div data-8075="opacity: 0;" 
+				data-8085="opacity: 1;" id="raindrop63"></div>
+	<div data-8050="opacity: 0;" 
+				data-8060="opacity: 1;" id="raindrop64"></div>
+	<div data-9060="opacity: 0;" 
+				data-9050="opacity: 1;" id="raindrop65"></div>
+	<div data-9085="opacity: 0;" 
+				data-9075="opacity: 1;" id="raindrop66"></div>
+	<div data-10010="opacity: 0;" 
+				data-10000="opacity: 1;" id="raindrop67"></div>
+	<div data-10035="opacity: 0;" 
+				data-10025="opacity: 1;" id="raindrop68"></div>
+	<div data-10125="opacity: 0;" 
+				data-10135="opacity: 1;" id="raindrop69"></div>
+	<div data-10100="opacity: 0;" 
+				data-10110="opacity: 1;" id="raindrop70"></div>
+	<div data-10075="opacity: 0;" 
+				data-10085="opacity: 1;" id="raindrop71"></div>
+	<div data-10050="opacity: 0;" 
+				data-10060="opacity: 1;" id="raindrop72"></div> -->
+
+	<h1 id="on">on your</h1>
+
+	<img id="parade" src="images/parade.jpg">
+
+
+
+
+
+	
+
+	
+
+
+<script src="JQuery/jquery.min.js"></script>
+<script src="JQuery/TweenMax.min.js"></script>	
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="scripts/skrollr.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
